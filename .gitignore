@@ -1,0 +1,15 @@
+# Arquivos de compilação TypeScript
+/dist
+
+# Dependências npm ou yarn
+/node_modules
+
+# Arquivos de configuração
+*.js
+*.map
+
+# Arquivos de configuração do TypeScript
+*.tsbuildinfo
+
+# Arquivo de configuração do Visual Studio Code
+.vscode
