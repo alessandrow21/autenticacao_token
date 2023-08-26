@@ -3,7 +3,8 @@ import * as jwt from 'jsonwebtoken';
 // Simulação de um banco de dados de usuários
 const usersDB: { [key: string]: string } = {
     'usuario1': 'senha123',
-    'usuario2': 'senha456'
+    'usuario2': 'senha456',
+    'usuario3': 'senha457'
 };
 
 // Simulação de um banco de dados de tokens
