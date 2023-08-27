@@ -1,5 +1,4 @@
 import * as jwt from 'jsonwebtoken';
-
 // Simulação de um banco de dados de usuários
 const usersDB: { [key: string]: string } = {
     'usuario1': 'senha123',
@@ -35,7 +34,6 @@ function validarToken(token: string): boolean {
         return false;
     }
 }
-
 // Simulação de usuário e senha
 const usuarioInformado = 'usuario1';
 const senhaInformada = 'senha123';
